@@ -1,7 +1,7 @@
 public abstract class Pessoa {
 
-    protected String nome;
-    protected String cpf;
+    private String nome;
+    private String cpf;
 
     public Pessoa(String nome, String cpf) {
         this.nome = nome;

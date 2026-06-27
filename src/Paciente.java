@@ -54,7 +54,7 @@ public class Paciente extends Pessoa {
         if (!ativo) {
             status = "Nao";
         }
-        return "Nome: " + nome + " | CPF: " + cpf + " | Idade: " + idade
+        return "Nome: " + getNome() + " | CPF: " + getCpf() + " | Idade: " + idade
                 + " | Tel: " + telefone + " | Convenio: " + convenioNome
                 + " | Ativo: " + status;
     }
