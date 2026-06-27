@@ -7,7 +7,7 @@ public class Profissional extends Pessoa {
 
     // so nome e especialidade
     public Profissional(String nome, String especialidade) {
-        super (nome);
+        super (nome, "");
 
         this.especialidade = especialidade;
         this.registroProfissional = "";
@@ -17,7 +17,7 @@ public class Profissional extends Pessoa {
     }
 
     public Profissional(String nome, String especialidade, String registroProfissional, double valorConsulta) {
-        super (nome);
+        super (nome, "");
 
         this.especialidade = especialidade;
         this.registroProfissional = registroProfissional;
@@ -29,7 +29,7 @@ public class Profissional extends Pessoa {
     // construtor completo com dias
     public Profissional(String nome, String especialidade, String registroProfissional,
                         double valorConsulta, String[] dias, int totalDias) {
-        super (nome);
+        super (nome, "");
 
         this.especialidade = especialidade;
         this.registroProfissional = registroProfissional;
